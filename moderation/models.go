@@ -115,6 +115,7 @@ type WarningModel struct {
 	LogsLink string
 }
 
+
 func (w *WarningModel) TableName() string {
 	return "moderation_warnings"
 }
